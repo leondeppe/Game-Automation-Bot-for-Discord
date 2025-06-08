@@ -1,27 +1,38 @@
-# Discord Game Bot - Gacha System
+# 🦖 Game Automation Bot for Discord
 
-> A little Discord bot to pimp your server with a dinosaur trading and gambling system
+> Collect, trade & battle dinosaurs with your friends in Discord!
+
+![Python](https://img.shields.io/badge/Python-3.11-blue.svg)
+![Discord](https://img.shields.io/badge/Discord-Bot-5865F2.svg)
+![Status](https://img.shields.io/badge/status-experimental-orange)
+
 ---
 
-### About this project
-This is a discord bot, that I have created in python when I was 16/17. I'm not sure if it works anymore, but you can go ahead and try it out.
-If it is set up, every member on your server can type /daily to get some coins, which can then be used to gamble for dinosaurs, with which you can then fight with.
-Have fun using it!
+## ✨ Features
 
-### Features
-- Database System
-- Streak improvement by every day
-- Bot contains more than 100 dinosaurs
-- Gamble system with different probabilities
-- Public trading station for all members
-- Beautiful embeds
-- Fighting system
-- Shop system
+* **Daily rewards** – `/daily` for coins to get you started
+* **Turn‑based battles** – Challenge friends, pick attacks, win coins & XP
+* **Marketplace** – Buy, sell and trade dinos or items with other players
+* **Server‑local economies** – Every guild has its own bank and collection
+* **Rich embeds & slash commands** – Clean, modern Discord UX
 
-### Getting started
+---
+
+## ⭐ About this project
+
+I built Dino Gacha when I was 16–17 as a weekend hobby.
+It lived privately in a handful of servers and may not work properly anymore.
+This is it's code.
+
+---
+
+## 🚀 Quick start
+
 1. Clone the project `git clone https://github.com/leondeppe/discordgamebot.git`
 2. Rename the folder to your server-id name in `Data/server_id`
 3. Set up your bot credentials in `Discord Game Bot/setup.py`
 4. Install required modules with `pip install -r requierements.txt`
 5. Create a start file with screen application `screen -S dgb python3 main.py`
 6. Start Bot via `./start.sh`
+
+---
